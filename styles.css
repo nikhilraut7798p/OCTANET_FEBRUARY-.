@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a63d3;
+    color: rgb(59, 22, 207);
+    text-align: center;
+    padding: 1em;
+}
+
+.main-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #317de2;
+    color: rgb(76, 34, 215);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #191515;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+}
+
+.contact-section {
+    background-color: #b74545;
+    padding: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(28, 213, 161);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
